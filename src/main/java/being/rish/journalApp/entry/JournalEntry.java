@@ -1,13 +1,25 @@
 package being.rish.journalApp.entry;
 
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
-import java.util.Date;
+
+// Lombok:
+// Lombok is a popular library in the Java ecosystem, often used in Spring Boot Applications.
+// It aims to reduce the boilerplate code that developers have to write, such as getters, setters, constructors, and more.
+// Lombok achieves this by generating this code automatically during compilation, based on annotations you add to your Java classes.
+
+// Lombok generates bytecode for methods like getters, setters, constructors, equals(), hashCode(), and toString(), as specified by thee annotations used in your code.
+// This generated code is added to the compiled class files(.class files).
 
 @Document(collection = "journal_entries")
+@Getter
+@Setter
 public class JournalEntry {
 
     @Id
@@ -16,19 +28,4 @@ public class JournalEntry {
     private String content;
     private LocalDateTime date;
 
-    public ObjectId getId() { return id; }
-
-    public void setId(ObjectId id) { this.id = id; }
-
-    public String getTitle() { return title; }
-
-    public void setTitle(String title) { this.title = title; }
-
-    public String getContent() { return content; }
-
-    public void setContent(String content) { this.content = content; }
-
-    public LocalDateTime getDate() { return date; }
-
-    public void setDate(LocalDateTime date) { this.date = date;}
 }
