@@ -1,6 +1,6 @@
 package being.rish.journalApp.repository;
 
-import being.rish.journalApp.entry.User;
+import being.rish.journalApp.entity.User;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 

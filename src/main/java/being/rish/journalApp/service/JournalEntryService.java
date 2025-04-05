@@ -1,7 +1,7 @@
 package being.rish.journalApp.service;
 
-import being.rish.journalApp.entry.JournalEntry;
-import being.rish.journalApp.entry.User;
+import being.rish.journalApp.entity.JournalEntry;
+import being.rish.journalApp.entity.User;
 import being.rish.journalApp.repository.JournalEntryRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.bson.types.ObjectId;

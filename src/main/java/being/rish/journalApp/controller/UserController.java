@@ -1,6 +1,6 @@
 package being.rish.journalApp.controller;
 
-import being.rish.journalApp.entry.User;
+import being.rish.journalApp.entity.User;
 import being.rish.journalApp.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

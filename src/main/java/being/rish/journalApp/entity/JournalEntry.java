@@ -1,4 +1,4 @@
-package being.rish.journalApp.entry;
+package being.rish.journalApp.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

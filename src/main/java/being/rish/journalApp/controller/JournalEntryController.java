@@ -1,7 +1,7 @@
 package being.rish.journalApp.controller;
 
-import being.rish.journalApp.entry.JournalEntry;
-import being.rish.journalApp.entry.User;
+import being.rish.journalApp.entity.JournalEntry;
+import being.rish.journalApp.entity.User;
 import being.rish.journalApp.service.JournalEntryService;
 import being.rish.journalApp.service.UserService;
 import org.bson.types.ObjectId;
