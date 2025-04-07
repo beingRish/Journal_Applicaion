@@ -17,15 +17,6 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/*
-ResponseEntity:
-The ResponseEntity class is part of the Spring Framework.
-It is commonly used in Spring Boot application to customize the HTTP response.
-It provides methods for setting the response status, headers, and body.
-You can use it to return different types of data in your controller methods, such as JSON, XML, or even HTML.
-You can use generics with ResponseEntity to specify the type of data you are returning.
-*/
-
 @RestController
 @RequestMapping("/journal")
 public class JournalEntryController {
