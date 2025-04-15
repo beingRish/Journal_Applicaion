@@ -14,7 +14,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.*;
 @Disabled
 @SpringBootTest
-public class UserServiceTests {
+public class UserDTOServiceTests {
 
     @Autowired
     public UserRepository userRepository;

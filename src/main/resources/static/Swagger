@@ -1,0 +1,22 @@
+OpenAPI Specification:-
+It defines a standardized format for describing APIs comprehensively
+
+Swagger:-
+Tools used to implement the OpenAPI specification
+
+Swagger is an open-source framework used for designing, building, documenting, and consuming RESTFUL APIs.
+It provides a standardized way to describe the structure of an API making it easier for developers to understand, integrate, and consume the API.
+
+Springfox:-
+Springfox is a Java library used to integrate Swagger with Spring Boot applications.
+It automatically generates Swagger documentation from your Spring controllers and models.
+Springfox-boot-starter: A starter dependency to quickly set up and integrate Springfox into a Spring Boot project.
+
+Springdoc OpenAPI:-
+Springdoc OpenAPI is an alternative to Springfox. It is designed to generate API documentation from Spring Boot applications using the OpenAPI3 specification, which is the latest iteration of the Swagger specification.
+
+springdoc-openapi-ui: A module that integrates Spring Boot applications with Swagger UI using the OpenAPI3 specification.
+
+The /v3/api-docs endpoint provides the JSON representation of API's documentation, which can be used by Swagger UI to generate interactive API documentation.
+
+OpenAPI definition: This is the title of our API documentation. It can be customized.
